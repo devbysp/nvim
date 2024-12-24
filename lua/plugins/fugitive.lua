@@ -33,7 +33,7 @@ local function openGitStatusWindow()
   end
 
   openFugitveWindow()
-  dockCurrentWindowToRightSide(75)
+  dockCurrentWindowToRightSide(40)
 
   local window_id = getCurrentWindow()
   local function closeWindow()
